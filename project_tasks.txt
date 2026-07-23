@@ -1,0 +1,53 @@
+DERIVATIVE PRICING PROJECT - TASK LIST
+
+STEP 1: BINOMIAL TREES & PUT-CALL PARITY
+---------------------------------------------------------
+1. (Theory) Does put-call parity apply for European options? Why/why not?
+2. (Theory) Rewrite put-call parity to solve for the call price.
+3. (Theory) Rewrite put-call parity to solve for the put price.
+4. (Theory) Does put-call parity apply for American options? Why/why not?
+
+5. Price ATM European Call and Put using a Binomial Tree:
+   - Parameters: S0=100, r=5%, sigma=20%, T=3 months.
+   - Choose step size (N) and justify.
+6. Compute Greek Delta for European Call and Put at time 0.
+   - Compare and comment on signs.
+7. Compute Sensitivity to Volatility (Vega):
+   - Increase sigma to 25% and re-price.
+   - Comment on impact.
+
+8. Price ATM American Call and Put using a Binomial Tree (Repeat Q5).
+9. Compute Greek Delta for American Call and Put (Repeat Q6).
+10. Compute Sensitivity to Volatility for American Options (Repeat Q7).
+
+11. Show if European options satisfy put-call parity.
+12. Show if American options satisfy put-call parity.
+13. Confirm if European Call <= American Call.
+14. Confirm if European Put <= American Put.
+
+STEP 2: TRINOMIAL TREES & GRAPHS
+---------------------------------------------------------
+15. Price European Calls using Trinomial Tree for 5 strikes (Deep OTM to Deep ITM).
+    - Comment on price trends vs moneyness.
+16. Price European Puts using Trinomial Tree for 5 strikes.
+17. Price American Calls using Trinomial Tree for 5 strikes.
+18. Price American Puts using Trinomial Tree for 5 strikes.
+
+19. Graph 1: European Call/Put Prices vs Stock Price.
+20. Graph 2: American Call/Put Prices vs Stock Price.
+21. Graph 3: European vs American Call Prices vs Strike.
+22. Graph 4: European vs American Put Prices vs Strike.
+23. Check Put-Call Parity for European options (from Q15/16).
+24. Check Put-Call Parity for American options (from Q17/18).
+
+STEP 3: HEDGING & REAL-WORLD SCENARIOS
+---------------------------------------------------------
+25. Dynamic Delta Hedging (European Put):
+    - Data: S0=180, r=2%, sigma=25%, T=6m, K=182.
+    - Use 3-step tree.
+    - Simulate hedging process for one path.
+26. Dynamic Delta Hedging (American Put):
+    - Use 25-step tree.
+    - Simulate hedging process and cash account evolution.
+27. Pricing Asian ATM Put Option:
+    - Compare results to American Put.
