@@ -8,7 +8,7 @@
 # Quantitative Derivative Pricing Project
 
 ## Overview
-This project implements a comprehensive valuation framework for financial derivatives using numerical methods in Python. It was developed as part of the MSCFE 620 Derivative Pricing course. The core objective is to validate vanilla option prices, analyze sensitivities (Greeks), and simulate dynamic hedging strategies using Binomial and Trinomial trees.
+This project implements a comprehensive valuation framework for financial derivatives using numerical methods in Python. It was developed as part of the Derivative Pricing course. The core objective is to validate vanilla option prices, analyze sensitivities (Greeks), and simulate dynamic hedging strategies using Binomial and Trinomial trees.
 
 ## Project Structure
 
