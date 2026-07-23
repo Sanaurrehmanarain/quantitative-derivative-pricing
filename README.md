@@ -37,3 +37,29 @@ This project implements a comprehensive valuation framework for financial deriva
 1. **Put-Call Parity**: Holds strictly for European options but serves only as an inequality boundary for American options.
 2. **Early Exercise**: Verified that American Puts trade at a premium to European Puts (especially when ITM) due to the interest on the strike price.
 3. **Hedging**: Demonstrated that frequent rebalancing (Delta Hedging) can effectively eliminate directional risk in an option portfolio.
+
+# Citation
+
+If this repository contributes to your research, please cite:
+
+```bibtex
+@software{arain2026finance,
+  author = {Arain, Sana Ur Rehman},
+  title = {quantitative-derivative-pricing},
+  year = {2026},
+  version = {1.0},
+  url = {https://github.com/sanaurrehmanarain/quantitative-derivative-pricing}
+}
+```
+
+This repository includes a `CITATION.cff` file, so GitHub provides a
+**"Cite this repository"** button in the repository sidebar. You can use it
+to obtain citations in BibTeX, APA, and other supported formats.
+
+---
+
+# License
+
+Released under the MIT License.
+
+See the [LICENSE](LICENSE) file for details.
